@@ -1,0 +1,137 @@
+@import "./variables.css";
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+.about-section {
+    display: flex;
+    justify-content: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.about-text-section {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    padding-bottom: 35px;
+}
+
+.about-title {
+    font-family: var(--title-font-style);
+    font-size: 65px;
+}
+
+.about-subheading {
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+
+.about-paragraph {
+    line-height: 1.5;
+    padding-bottom: 20px;
+}
+
+.about-btn {
+    font-family: var(--title-font-style);
+    font-size: 20px;
+    color: #ffffff;
+    background-color: var(--button-color);
+    height: 60px;
+    width: 200px;
+    
+    border: none;
+    border-radius: 20px 0px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.about-btn:hover {
+    background-color: var(--hover-hero-button-color);
+    color: #ffffff;
+}
+
+.sushiman-image {
+    height: 500px;
+    width: 500px;
+}
+
+.story-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 35px;
+    background-color: var(--about-bg-color);
+}
+
+.story-title {
+    font-family: var(--subheading-font-style);
+    font-size: 35px;
+}
+
+.core-values-title {
+    font-family: var(--subheading-font-style);
+    font-size: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.story-paragraph-container {
+    display: flex;
+    justify-content: center;
+    
+    gap: 25px;
+    padding-bottom: 20px;
+}
+
+.story-parahraph-one,
+.story-parahraph-two {
+    max-width: 425px;
+    line-height: 1.5;
+}
+
+.core-values-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 50px;
+    padding-bottom: 20px;
+}
+
+.core-values-title {
+    padding-bottom: 20px;
+}
+
+.core-value-card-container {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.core-value-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+    gap: 10px;
+}
+
+.craftmanship-svg,
+.community-svg,
+.sustainability-svg {
+    height: 75px;
+    width: 75px;
+}
+
+.value-card-name-title {
+    font-family: var(--subheading-font-style);
+}
+
+.value-card-paragraph {
+    line-height: 1.5;
+    text-align: center;
+}

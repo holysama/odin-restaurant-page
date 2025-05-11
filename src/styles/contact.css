@@ -1,0 +1,63 @@
+@import "./variables.css";
+
+.contact-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    position: relative;
+}
+
+.sushi-background {
+    height: 100vh;
+    min-width: 200px;
+}
+
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--main-bg-color);
+    border: 2px solid var(--contact-section-border-color);
+    border-radius: 20px;
+    padding: 20px;
+
+    position: absolute;
+    top: 15%;
+    height: 600px;
+    width: clamp(700px, 60%, 800px);
+}
+
+.contact-us-title {
+    font-family: var(--title-font-style);
+    font-size: 65px;
+    padding-bottom: 10px;
+}
+
+.div-content-container {
+    display: flex;
+    flex: 1;
+    gap: 20px;
+}
+
+.contact-cards-container {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    
+}
+
+.contact-card-title {
+    padding-bottom: 5px;
+}
+
+.contact-card-paragraph {
+    line-height: 1.2;
+}
+
+.sushi-man-contact {
+    margin-top: 60px;
+    height: 300px;
+    width: clamp(350px, 1rem, 500px);
+    border-radius: 10px;
+}

@@ -1,0 +1,100 @@
+@import "./variables.css";
+
+.menu-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.menu-decorative-text {
+    color: var(--bg-font-color);
+    font-size: 100px;
+    text-align: center;
+    white-space: nowrap;
+    white-space: pre;
+    width: 100%;
+    overflow: hidden;
+}
+
+.dishes-container {
+    display: flex;
+    flex-direction: column;
+    padding: 80px 50px;
+    gap: 40px
+}
+
+.dishes-container-text {
+    font-family: var(--title-font-style);
+    font-size: 48px;
+    align-self: center;
+}
+
+.dish-card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px
+}
+
+.dish-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border: 1px solid var(--card-border-color);
+    border-radius: 50px 0px;
+    height: 366px;
+    width: 290px;
+}
+
+.dish-img {
+    height: 230px;
+    width: 240px;
+}
+
+.dish-text-container {
+    display: flex;
+    align-items: flex-end;
+    width: 240px;
+}
+
+.dish-name {
+    font-size: 32px;
+    font-family: var(--card-dish-name-font-style);
+}
+
+.dish-variety-count {
+    font-size: 14px;
+    margin-left: auto;
+    margin-bottom: 7.25px;
+}
+
+.dish-order-btn {
+    color: var(--card-order-btn-font-color);
+    font-family: var(--card-order-btn-font-style);
+    background-color: var(--card-order-btn-bg-color);
+    
+    font-size: 20px;
+    margin-top: 10px;
+    height: 60px;
+    width: 240px;
+
+    border: 1px solid var(--card-order-btn-border-color);
+    border-radius: 27.5px 0px;
+
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.dish-order-btn:hover {
+    border: 1px solid var(--card-order-btn-hover-border-color);
+    color: var(--card-order-btn-hover-font-color);
+}
+
+
+
+
+
+
+

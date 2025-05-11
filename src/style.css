@@ -1,0 +1,136 @@
+@import "./styles/variables.css";
+@import "./styles/home.css";
+@import "./styles/menu.css";
+@import "./styles/about.css";
+@import "./styles/contact.css";
+@import "./styles/footer.css";
+
+
+@font-face {
+    font-family: 'Satoshi-Regular';
+    src: url('./fonts/SatoshiRegular.woff2') format('woff2');
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Hiro-Misake';
+    src: url('./fonts/HiroMisake.woff2') format('woff2');
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+
+    font-family: var(--main-font-style);
+    color: var(--main-font-color);
+    background-color: var(--main-bg-color);
+    line-height: 1.25;
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px;
+    border-bottom: 1px solid #e9dac6;  
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    height: 75px;
+    width: 80%;
+    min-width: 268px;
+    
+}
+
+#restaurant-name {
+    font-family: var(--title-font-style);
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+#restaurant-name:hover {
+    color: var(--hover-rest-name-color);
+}
+
+.nav-buttons {
+    display: flex;
+    gap: 40px;
+}
+
+#home, 
+#menu,
+#about,
+#contact {
+    all: unset;
+    cursor: pointer;
+    padding: 10px;
+    transition-duration: 0.4s;
+    position: relative;
+}
+
+#home:hover, 
+#menu:hover,
+#about:hover,
+#contact:hover {
+    color: var(--button-color);
+}
+
+#home::after, 
+#menu::after,
+#about::after,
+#contact::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 7.5px;
+    height: 7.5px;
+    background-color: var(--button-color);
+    border-radius: 50%;
+    opacity: 0;
+    transition: opacity 0.4s;
+}
+
+#home:hover::after, 
+#menu:hover::after,
+#about:hover::after,
+#contact:hover::after {
+    opacity: 1;
+}
+
+.nav-icons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    width: 107.11px;
+}
+
+.material-symbols-outlined {
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.material-symbols-outlined:hover {
+    color: var(--hover-hero-icon-color);
+}
+
+
+

@@ -1,0 +1,61 @@
+@import "./variables.css";
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--footer-bg-color);
+    color: #ffffff;
+    height: 293px;
+    padding: 48px;
+    margin-top: auto;
+}
+
+.footer-rest-name {
+    font-size: 20px;
+    font-family: var(--title-font-style);
+    width: 140px;
+}
+
+.footer-nav-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    
+    align-self: center;
+    width: 440px;
+    height: 230px;
+    text-align: center;
+}
+
+.nav-link-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.home-link,
+.menu-link,
+.about-link,
+.contact-link,
+.nav-link {
+    all: unset;
+    cursor: pointer;
+    padding: 10px;
+    transition-duration: 0.4s;
+    
+}
+
+.home-link:hover,
+.menu-link:hover,
+.about-link:hover,
+.nav-link:hover,
+.contact-link:hover {
+    color: var(--hover-footer-nav-button-color);
+}
+
+.footer-social-container {
+    width: 140px;
+}
+
+.icon {
+    height: 35px;
+    width: 35px;
+}

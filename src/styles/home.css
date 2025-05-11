@@ -1,0 +1,68 @@
+@import "./variables.css";
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-title {
+    font-family: var(--title-font-style);
+    font-size: 75px;
+    text-align: center;
+    width: 837px;
+    padding-top: 50px;
+}
+
+.order-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.hero-text-container {
+    display: flex;
+    justify-self: flex-start;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.hero-image-bg1,
+.hero-image-bg2 {
+    width: clamp(175px, 30vw, 260px);
+    height: 225px;
+}
+
+.hero-text {
+    font-size: 17.5px;
+    text-align: center;
+    max-width: 620px;
+    padding-top: 24px;
+    padding-bottom: 30px;
+}
+
+.hero-button {
+    font-family: var(--title-font-style);
+    font-size: 20px;
+    color: #ffffff;
+    background-color: var(--button-color);
+    height: 60px;
+    width: 200px;
+    
+    border: none;
+    border-radius: 20px 0px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.hero-button:hover {
+    background-color: var(--hover-hero-button-color);
+    color: #ffffff;
+}
+
+.hero-image {
+    max-height: 661px;
+    max-width: 900px;
+}

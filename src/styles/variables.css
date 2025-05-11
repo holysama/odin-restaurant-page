@@ -1,0 +1,35 @@
+:root {
+    /*general styles*/
+    --main-bg-color: #f3ede1;
+    --bg-font-color: #e9dac6;
+    --main-font-color: #333f72;                       
+    --button-color: #e56e0c;
+    --hover-hero-icon-color: #e56e0c;
+    --hover-hero-button-color: #333f72;
+    --hover-nav-button-color: #e56e0c;
+    --hover-rest-name-color: #e56e0c;
+    --main-font-style: "Satoshi-Regular";
+    --title-font-style: "Hiro-Misake";
+    --footer-bg-color: #333f72;
+
+    /*footer.css*/
+    --hover-footer-nav-button-color: #e56e0c;
+    --hover-footer-nav-items-color: #e56e0c;
+
+    /*menu.css*/
+    --card-border-color: #333f72;
+    --card-dish-name-font-style: "Hiro-Misake";
+    --card-order-btn-border-color: #e56e0c;
+    --card-order-btn-hover-border-color: #333f72;
+    --card-order-btn-font-color: #e56e0c;
+    --card-order-btn-hover-font-color: #333f72;
+    --card-order-btn-font-style: "Hiro-Misake";
+    --card-order-btn-bg-color: #f3ede1;
+
+    /*about.css*/
+    --subheading-font-style: "Hiro-Misake";
+    --about-bg-color: #e9dac6;
+
+    /*contact.css*/
+    --contact-section-border-color: #333f72;
+}
